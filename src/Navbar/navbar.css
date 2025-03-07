@@ -1,0 +1,54 @@
+
+header{
+ padding-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+nav ul li a::after{
+    content: " ";
+    height: 3px;
+    width: 0%;
+    background-color: #F6762E;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    transition: 0.4s;
+}
+nav ul li:hover a::after{
+    width: 50%;
+}
+nav ul li .active{
+    font-weight: 600;
+}
+nav ul li .active::after{
+    content: " ";
+    height: 4px;
+    width: 50%;
+    background-color: #F6762E;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    border-radius: 50px;
+   
+    
+}
