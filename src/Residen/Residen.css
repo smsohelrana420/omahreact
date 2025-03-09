@@ -1,0 +1,88 @@
+#residen{
+background-color: #EEEDDE;
+}
+.residen-title h5{
+ padding-top:68px;
+ font-size: 16px;
+ font-weight: 500;
+ color: #FF7527;
+ font-family: "Poppins", sans-serif;
+}
+.residen-title h3{
+    padding-top: 8px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+
+.residen_wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.residen_left{
+    margin-top: 64px;
+    position: relative;
+    padding-bottom: 163px;
+}
+
+.residen_left .residen2 {
+    position: absolute;
+    left: 167px;
+    top: 60px;
+}
+
+.residen_right{
+    margin-top: 100px;
+    width: 577px;
+    
+}
+.residen_right h2{
+    width: 507px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}
+.residen_right p{
+    margin-top: 24px;
+    width: 570px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+
+}
+.residen-btn{
+    margin-top: 30px;
+}
+.residen-btn button{
+    width: 234px;
+    padding: 13px 0;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #203239;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    
+}
+.residen-btn button:hover{
+background-color: transparent;
+}
+.residen-btn .phone{
+    margin-right: 20px;
+
+}
+.residen-btn .secondary-btn{
+    margin-left: 48px;
+    transition: 0.4s;
+}
+.residen-btn .secondary-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
