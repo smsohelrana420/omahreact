@@ -1,0 +1,66 @@
+#banner{
+ background-color: #EEEDDE;
+}
+.banner_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_left h1{
+    padding-top: 220px;
+    width: 777px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 24px;
+}
+.banner_left p{
+    width: 544px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(32, 50, 57,.55);
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 55px;
+}
+.input_box input{
+    width: 508px;
+    padding: 23px 0;
+    padding-left: 56px;
+    border: none;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(32, 50, 57,.55);
+    font-family: "Poppins", sans-serif;
+}
+.input_box button{
+    margin-left: 15px;
+    padding: 23px 41px;
+    border: none;
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    color: rgb(32, 50, 57,.55);
+
+}
+.input_box{
+    position: relative;
+}
+.input_box .location{
+    transform: translateY(-50%);
+    top: 50%;
+    left: 20px;
+    position: absolute;
+}
+.banner_right{
+    padding-top: 188px;
+}
+.banner_right img{
+    padding-bottom: 120px;
+}
