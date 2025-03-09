@@ -1,0 +1,40 @@
+#berbagai{
+padding-top: 48px;
+}
+.berbagai-title h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    font-family: "Poppins", sans-serif;
+}
+.berbagai-title h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #203239;
+    padding-top: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.berbagai_wrapper{
+ display: flex;
+ justify-content: space-between;
+ padding-top: 64px;
+}
+.berbagia-cart-1 h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #203239;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+
+}
+.berbagia-cart-1 p{
+    width: 356px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #203239;
+    font-family: "Poppins", sans-serif;
+}

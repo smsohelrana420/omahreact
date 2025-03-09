@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar'
 import Banner from './Banner/Banner'
 import Properti from './Properti/Properti'
 import Residen from './Residen/Residen'
+import Berbagai from './Berbagai/Berbagai'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Banner/>
       <Properti/>
       <Residen/>
+      <Berbagai/>
     </div>
   )
 }
