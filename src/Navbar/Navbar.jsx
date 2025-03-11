@@ -1,6 +1,6 @@
 import React from 'react'
 import "./navbar.css"
-import Logo from "../../public/Group 8.png"
+import Logo from "/group.png"
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
           <div className="container">
           <nav>
             <div>
-                <img src={Logo} alt="" />
+              <img src={Logo} alt="" />
             </div>
             <ul>
              <li><a className='active' href="#">Home</a></li>

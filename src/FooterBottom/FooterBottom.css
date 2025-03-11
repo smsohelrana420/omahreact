@@ -1,0 +1,19 @@
+.footer-bottom{
+    background-color: #203239;
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+
+}
+.footerbottomitem ul{
+    display: flex;
+    color: #fff;
+    gap: 30px;
+}
+.footerbottomitem ul li{
+    list-style: none;
+}
